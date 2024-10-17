@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "davidtech:stoneingot"
+    },
+    {
+      "item": "davidtech:stoneingot"
+    },
+    {
+      "item": "davidtech:stoneingot"
+    },
+    {
+      "item": "davidtech:stoneingot"
+    }
+  ],
+  "result": { "id": "minecraft:stone", "count": 4 }
+}

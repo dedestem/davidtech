@@ -1,0 +1,19 @@
+{
+	version: 1
+	uuid: "66212eae12d033f7bd64547255e16b3f"
+	name: "Player364#66212eae"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: {
+		0000000000000001: 1729008929664L
+		7944E6DAF3C4499A: 1729008929664L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		66212eae12d033f7bd64547255e16b3f: {
+			can_edit: 1b
+		}
+	}
+}

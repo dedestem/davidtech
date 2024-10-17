@@ -1,0 +1,23 @@
+{
+	version: 1
+	uuid: "19c68aa8b95a383da79ce77aa512ccca"
+	name: "Player636#19c68aa8"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		547240C2520F2C88: 1
+	}
+	started: {
+		547240C2520F2C88: 1729006596235L
+		6119737306165D9A: 1729006596235L
+		0000000000000001: 1729006596235L
+		7944E6DAF3C4499A: 1729006596235L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		19c68aa8b95a383da79ce77aa512ccca: {
+			can_edit: 1b
+		}
+	}
+}

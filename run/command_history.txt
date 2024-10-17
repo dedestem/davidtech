@@ -1,0 +1,35 @@
+/give @s ftbquests:book
+/give @s flint 32
+/give @s minecraft:gravel 32
+/give @s minecraft:red_wool 6
+/give @s minecraft:blue_wool 6
+/give @s minecraft:white_bed
+/clear
+/gamemode survival
+/effect give @s minecraft:hunger 2 255
+/give @s minecraft:furnace
+/give @s minecraft:cobblestone 64
+/give @s davidtech:mortar
+/time set day
+/difficulty peaceful
+/weather clear
+/give @s coal 64
+/effect give @s minecraft:hunger 10 255
+/effect give @s minecraft:hunger 10 300
+/effect give @s minecraft:hunger 10 255
+/effect give @s minecraft:hunger 10 255/
+/
+/give @s minecraft:acacia_boat
+/kill @s
+/give @s ftbquests:book
+/kill
+/give @s beef
+/difficulty easy
+/effect give @s minecraft:hunger 20 255
+/effect clear @a
+/give @s minecraft:chicken
+/give @s minecraft:cod
+/effect give @s minecraft:hunger 10 255
+/effect clear
+/give @s cooked_beef
+/reload

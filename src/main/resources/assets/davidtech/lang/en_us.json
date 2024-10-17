@@ -1,0 +1,22 @@
+{
+  "item.davidtech.stonedust": "Stone Dust",
+  "item.davidtech.stoneingot": "Stone Ingot",
+  "item.davidtech.obsidiandust": "Obsidian Dust",
+  "item.davidtech.ironplate": "Iron Plate",
+  "item.davidtech.ironrod": "Iron Rod",
+  "item.davidtech.ironbolt": "Iron Bolt",
+
+  "item.davidtech.mortar": "Mortar",
+  "item.davidtech.ironmortar": "Iron Mortar",
+  "item.davidtech.softmallet": "Soft Mallet",
+  "item.davidtech.ironhammer": "Iron Hammer",
+  "item.davidtech.ironfile": "Iron File",
+  "item.davidtech.ironwrench": "Iron Wrench",
+
+  "item.davidtech.flintpickaxe": "Flint Pickaxe",
+
+  "block.davidtech.ironmachinecasing": "Iron Machine Casing",
+  "block.davidtech.tier0generator": "Generator T0",
+
+  "tag.item.davidtech.axes": "Axes"
+}

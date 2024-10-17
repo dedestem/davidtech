@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "davidtech:block/tier0generator",
+    "bottom": "davidtech:block/tier0generator",
+    "side": "davidtech:block/tier0generator",
+    "front": "davidtech:block/tier0generator_front"
+  }
+}

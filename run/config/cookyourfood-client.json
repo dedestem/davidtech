@@ -1,0 +1,4 @@
+{
+  "comment": "Show warning tooltips on items that would cause food poisoning.",
+  "show_warning_tooltips_on_items": true
+}

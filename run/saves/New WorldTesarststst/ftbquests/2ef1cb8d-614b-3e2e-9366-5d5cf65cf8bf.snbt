@@ -1,0 +1,19 @@
+{
+	version: 1
+	uuid: "2ef1cb8d614b3e2e93665d5cf65cf8bf"
+	name: "Player731#2ef1cb8d"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		547240C2520F2C88: 1
+	}
+	started: {
+		547240C2520F2C88: 1729093930742L
+		6119737306165D9A: 1729093930742L
+		0000000000000001: 1729093930742L
+		7944E6DAF3C4499A: 1729093930742L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "50e3702df5773e448b3cfb2dc8cfae65"
+	name: "Player454#50e3702d"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

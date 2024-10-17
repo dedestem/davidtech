@@ -1,0 +1,23 @@
+{
+	id: "57CF94CDC1CE2672"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: { count: 1, id: "minecraft:white_dye" } }
+		{ item: { count: 1, id: "minecraft:light_gray_dye" } }
+		{ item: { count: 1, id: "minecraft:gray_dye" } }
+		{ item: { count: 1, id: "minecraft:black_dye" } }
+		{ item: { count: 1, id: "minecraft:brown_dye" } }
+		{ item: { count: 1, id: "minecraft:red_dye" } }
+		{ item: { count: 1, id: "minecraft:orange_dye" } }
+		{ item: { count: 1, id: "minecraft:yellow_dye" } }
+		{ item: { count: 1, id: "minecraft:lime_dye" } }
+		{ item: { count: 1, id: "minecraft:green_dye" } }
+		{ item: { count: 1, id: "minecraft:cyan_dye" } }
+		{ item: { count: 1, id: "minecraft:light_blue_dye" } }
+		{ item: { count: 1, id: "minecraft:blue_dye" } }
+		{ item: { count: 1, id: "minecraft:purple_dye" } }
+		{ item: { count: 1, id: "minecraft:magenta_dye" } }
+		{ item: { count: 1, id: "minecraft:pink_dye" } }
+	]
+}

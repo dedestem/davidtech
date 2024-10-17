@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S#S",
+    "#I#",
+    "S#S"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "davidtech:ironrod"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": { "id": "davidtech:ironmachinecasing", "count": 1 }
+}

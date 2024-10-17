@@ -1,0 +1,19 @@
+{
+	version: 1
+	uuid: "c7d67933d42831bd9c6395c492679fdc"
+	name: "Player476#c7d67933"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		547240C2520F2C88: 1
+	}
+	started: {
+		547240C2520F2C88: 1729094694242L
+		6119737306165D9A: 1729094694242L
+		0000000000000001: 1729094694242L
+		7944E6DAF3C4499A: 1729094694242L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

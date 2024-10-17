@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": { "id": "ftbquests:book", "count": 1 }
+}

@@ -1,0 +1,23 @@
+{
+	version: 1
+	uuid: "aa00f81f02073d55b2ed01303a11b876"
+	name: "Player415#aa00f81f"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		547240C2520F2C88: 1
+	}
+	started: {
+		547240C2520F2C88: 1729084388215L
+		6119737306165D9A: 1729084388215L
+		0000000000000001: 1729084388215L
+		7944E6DAF3C4499A: 1729084388215L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		aa00f81f02073d55b2ed01303a11b876: {
+			can_edit: 1b
+		}
+	}
+}

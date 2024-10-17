@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "WWW",
+    "FMF"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_carpet"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    },
+    "F": {
+      "tag": "minecraft:fences"
+    },
+    "M": {
+      "item": "davidtech:softmallet"
+    }
+  },
+  "result": {
+    "id": "minecraft:white_bed",
+    "count": 1
+  }
+}

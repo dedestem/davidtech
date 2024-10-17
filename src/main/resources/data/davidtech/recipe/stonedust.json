@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    {
+      "tag": "davidtech:mortar"
+    }
+  ],
+  "result": { "id": "davidtech:stonedust", "count": 1 }
+}

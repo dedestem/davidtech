@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "WWW",
+    "FMF"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:pink_carpet"
+    },
+    "W": {
+      "item": "minecraft:pink_wool"
+    },
+    "F": {
+      "tag": "minecraft:fences"
+    },
+    "M": {
+      "item": "davidtech:softmallet"
+    }
+  },
+  "result": {
+    "id": "minecraft:pink_bed",
+    "count": 1
+  }
+}

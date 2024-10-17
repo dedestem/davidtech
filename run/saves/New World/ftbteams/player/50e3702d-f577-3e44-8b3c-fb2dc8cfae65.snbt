@@ -1,0 +1,17 @@
+{
+	id: "50e3702d-f577-3e44-8b3c-fb2dc8cfae65"
+	type: "player"
+	player_name: "Player454"
+	ranks: {
+		50e3702d-f577-3e44-8b3c-fb2dc8cfae65: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Player454"
+		"ftbteams:description": ""
+		"ftbteams:color": "#E559FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "ab00b12381313d149be8b41089c89fbc"
+	name: "Player775#ab00b123"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		34BE0C32A035FE40: 16
+		547240C2520F2C88: 1
+	}
+	started: {
+		4205B9FE4E4D0668: 1729081882325L
+		34BE0C32A035FE40: 1729081882325L
+		0000000000000001: 1729081882325L
+		7944E6DAF3C4499A: 1729081882325L
+		547240C2520F2C88: 1729081882336L
+		6119737306165D9A: 1729081882336L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

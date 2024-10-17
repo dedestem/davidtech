@@ -1,0 +1,29 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-16 17:52:09 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "tundra": "2024-10-16 17:52:56 +0200",
+      "muskeg": "2024-10-16 17:52:50 +0200",
+      "snowy_coniferous_forest": "2024-10-16 17:52:10 +0200"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "snowy_coniferous_forest": "2024-10-16 17:52:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2024-10-16 17:52:48 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}

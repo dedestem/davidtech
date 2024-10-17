@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "000",
+    "###",
+    "000"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:flint"
+    },
+    "0": {
+      "tag": "minecraft:stone_crafting_materials"
+    }
+  },
+  "result": { "id": "minecraft:furnace", "count": 1 },
+  "show_notification": false
+}

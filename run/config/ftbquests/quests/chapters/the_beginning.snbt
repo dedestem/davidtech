@@ -1,0 +1,249 @@
+{
+	autofocus_id: "6E1346546D60505E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: ""
+	icon: {
+		id: "minecraft:crafting_table"
+	}
+	id: "7944E6DAF3C4499A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E1346546D60505E"
+			rewards: [{
+				id: "5FAD723F24C55AE3"
+				item: {
+					count: 1
+					id: "davidtech:mortar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "3116EDA20A7141DB"
+				item: { count: 32, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E1346546D60505E"]
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+			}
+			id: "76A9D5A084F15F25"
+			rewards: [{
+				count: 8
+				id: "4388C9B67380BFD9"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61DFEFD29E92F7C6"
+					item: { count: 1, id: "minecraft:wooden_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "51DA2C8F2A847500"
+					item: { count: 1, id: "minecraft:wooden_axe" }
+					type: "item"
+				}
+				{
+					id: "7D5FB08125D742FB"
+					item: { count: 1, id: "minecraft:wooden_shovel" }
+					type: "item"
+				}
+				{
+					id: "74715BD5463B7778"
+					item: { count: 1, id: "minecraft:wooden_hoe" }
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76A9D5A084F15F25"]
+			id: "4205B9FE4E4D0668"
+			rewards: [{
+				count: 16
+				id: "2B4BE914586CB1AC"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "34BE0C32A035FE40"
+				item: { count: 16, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E1346546D60505E"]
+			id: "6119737306165D9A"
+			tasks: [{
+				id: "547240C2520F2C88"
+				item: { count: 1, id: "ftbquests:book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.8d
+		}
+		{
+			dependencies: ["6E1346546D60505E"]
+			id: "25A56091861DD2C7"
+			rewards: [{
+				count: 16
+				id: "30FB28798D54F229"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "395707068C937FAA"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76A9D5A084F15F25"]
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "6E357C9B7F6B321D"
+			rewards: [{
+				id: "2ED5012E5A1EACCC"
+				item: {
+					count: 1
+					id: "minecraft:stone_sword"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "55DB07A7EC1C4E66"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "4EA1C46912038AAC"
+					item: { count: 1, id: "minecraft:stone_axe" }
+					type: "item"
+				}
+				{
+					id: "11C24C6412F6FE4D"
+					item: { count: 1, id: "minecraft:stone_shovel" }
+					type: "item"
+				}
+				{
+					id: "23797A3525CDD041"
+					item: { count: 1, id: "minecraft:stone_hoe" }
+					type: "item"
+				}
+			]
+			x: 3.2d
+			y: 3.2d
+		}
+		{
+			dependencies: ["4205B9FE4E4D0668"]
+			id: "2128C235A5B2563C"
+			rewards: [{
+				count: 8
+				id: "2E4B8C4405B91E3D"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D4AA6ACFE15CF14"
+				item: { count: 1, id: "minecraft:furnace" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: -2.8d
+		}
+		{
+			dependencies: ["6E1346546D60505E"]
+			icon: {
+				id: "davidtech:softmallet"
+			}
+			id: "6E5219E03D8E5908"
+			rewards: [{
+				count: 5
+				id: "7C80A3D5DE7C5E92"
+				item: {
+					count: 1
+					id: "minecraft:white_dye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CE548905E5D698B"
+				item: { count: 1, id: "davidtech:softmallet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["6E1346546D60505E"]
+			id: "1856F4AD10D80183"
+			tasks: [{
+				count: 5L
+				id: "428ABC650B211E47"
+				item: { count: 12, id: "minecraft:white_wool" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.4d
+		}
+		{
+			dependencies: ["1856F4AD10D80183"]
+			id: "4EFCAFDB77670DF1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34F7FE6F97AD519E"
+				table_id: 6327439612919555698L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6E44C676CECCA095"
+				item: { count: 1, id: "minecraft:white_bed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6E5219E03D8E5908"]
+			id: "7830D1F7C5B17722"
+			tasks: [{
+				id: "0A7B1CFC31AD3E84"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: -3.2d
+			y: 3.2d
+		}
+	]
+}

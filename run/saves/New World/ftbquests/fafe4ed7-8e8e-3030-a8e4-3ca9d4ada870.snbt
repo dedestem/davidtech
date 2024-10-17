@@ -1,0 +1,16 @@
+{
+	version: 1
+	uuid: "fafe4ed78e8e3030a8e43ca9d4ada870"
+	name: "Player481#fafe4ed7"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		fafe4ed78e8e3030a8e43ca9d4ada870: {
+			chapter_pinned: 1b
+		}
+	}
+}

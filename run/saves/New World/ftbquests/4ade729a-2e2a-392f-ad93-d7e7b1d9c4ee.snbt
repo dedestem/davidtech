@@ -1,0 +1,17 @@
+{
+	version: 1
+	uuid: "4ade729a2e2a392fad93d7e7b1d9c4ee"
+	name: "Player58#4ade729a"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		4ade729a2e2a392fad93d7e7b1d9c4ee: {
+			can_edit: 1b
+			chapter_pinned: 1b
+		}
+	}
+}

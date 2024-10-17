@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "davidtech:block/tier0generator" }
+  }
+}

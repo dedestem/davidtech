@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "davidtech:obsidiandust"
+    },
+    {
+      "item": "davidtech:obsidiandust"
+    },
+    {
+      "item": "davidtech:obsidiandust"
+    },
+    {
+      "item": "davidtech:obsidiandust"
+    }
+  ],
+  "result": { "id": "minecraft:obsidian", "count": 1 }
+}

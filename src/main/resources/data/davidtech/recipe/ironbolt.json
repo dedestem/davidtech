@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "tag": "davidtech:axes"
+    }
+  ],
+  "result": { "id": "davidtech:ironbolt", "count": 8 }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "WWW",
+    "FMF"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:lime_carpet"
+    },
+    "W": {
+      "item": "minecraft:lime_wool"
+    },
+    "F": {
+      "tag": "minecraft:fences"
+    },
+    "M": {
+      "item": "davidtech:softmallet"
+    }
+  },
+  "result": {
+    "id": "minecraft:lime_bed",
+    "count": 1
+  }
+}

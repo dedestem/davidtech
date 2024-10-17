@@ -1,0 +1,17 @@
+{
+	id: "6be062b2-d5f9-3e2d-be7e-7d0540b46d78"
+	type: "player"
+	player_name: "Player762"
+	ranks: {
+		6be062b2-d5f9-3e2d-be7e-7d0540b46d78: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Player762"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF5967"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

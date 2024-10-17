@@ -1,0 +1,19 @@
+{
+	version: 1
+	uuid: "da5cc3743bd7357d9ee236c8124e8cc4"
+	name: "Player407#da5cc374"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		547240C2520F2C88: 1
+	}
+	started: {
+		547240C2520F2C88: 1729094190341L
+		6119737306165D9A: 1729094190341L
+		0000000000000001: 1729094190341L
+		7944E6DAF3C4499A: 1729094190341L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

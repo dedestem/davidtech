@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#A#",
+    "#I#",
+    "SWS"
+  ],
+  "key": {
+    "#": {
+      "item": "davidtech:ironbolt"
+    },
+    "A": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:furnace"
+    },
+    "I": {
+      "item": "davidtech:ironmachinecasing"
+    },
+    "W": {
+      "tag": "davidtech:wrench"
+    }
+  },
+  "result": { "id": "davidtech:tier0generator", "count": 1 }
+}

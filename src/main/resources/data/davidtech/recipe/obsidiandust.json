@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "tag": "davidtech:mortar"
+    }
+  ],
+  "result": { "id": "davidtech:obsidiandust", "count": 4 }
+}

@@ -1,0 +1,19 @@
+{
+	version: 1
+	uuid: "9a3e00a55f023e54a9f02e9c904f0bd5"
+	name: "Player138#9a3e00a5"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		547240C2520F2C88: 1
+	}
+	started: {
+		547240C2520F2C88: 1729007188055L
+		6119737306165D9A: 1729007188055L
+		0000000000000001: 1729007188055L
+		7944E6DAF3C4499A: 1729007188055L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

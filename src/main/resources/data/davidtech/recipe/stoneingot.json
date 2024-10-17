@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "davidtech:stonedust"
+  },
+  "result": {
+    "id": "davidtech:stoneingot",
+    "count": 1
+  },
+  "experience": 0.0,
+  "cookingtime": 150
+}
