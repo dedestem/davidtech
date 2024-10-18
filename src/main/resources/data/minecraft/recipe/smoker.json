@@ -16,9 +16,9 @@
     }
   },
   "pattern": [
-    "#H#",
+    "#P#",
     "PXP",
-    "#P#"
+    "#H#"
   ],
   "result": {
     "count": 1,
