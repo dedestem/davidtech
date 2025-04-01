@@ -1,6 +1,7 @@
 package net.davidnet.davidtech;
 
 import net.davidnet.davidtech.item.ModItems;
+import net.davidnet.davidtech.block.ModBlocks;
 
 import org.slf4j.Logger;
 
@@ -58,6 +59,7 @@ public class DavidTech
 
         // Register our items
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
