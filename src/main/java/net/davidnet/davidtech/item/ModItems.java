@@ -6,6 +6,12 @@ import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DavidTech.MODID);
@@ -30,8 +36,18 @@ public class ModItems {
                 @Override
                 public ItemStack getCraftingRemainingItem(ItemStack stack) {
                     ItemStack copy = stack.copy();
-                    copy.setDamageValue(copy.getDamageValue() + 1); // Verminder de durability
-                    return copy.getDamageValue() >= copy.getMaxDamage() ? ItemStack.EMPTY : copy;
+                    copy.setDamageValue(copy.getDamageValue() + 1); // Reduce durability
+
+                    if (copy.getDamageValue() >= copy.getMaxDamage()) {
+                        Level level = net.minecraft.client.Minecraft.getInstance().level;
+                        Player player = net.minecraft.client.Minecraft.getInstance().player;
+                        if (level != null && player != null) {
+                            level.playSound(player, player.blockPosition(), SoundEvents.ITEM_BREAK, SoundSource.PLAYERS, 1.0F, 1.0F);
+                        }
+                        return ItemStack.EMPTY; // Remove the item
+                    }
+
+                    return copy;
                 }
             }
     );
