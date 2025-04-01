@@ -1,5 +1,6 @@
 package net.davidnet.davidtech;
 
+import net.davidnet.davidtech.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -54,6 +55,9 @@ public class DavidTech
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        // Register our items
+        ModItems.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -69,7 +73,15 @@ public class DavidTech
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.OBSIDIAN_DUST);
+            event.accept(ModItems.WOOD_DUST);
+            event.accept(ModItems.BOUND_FLINT);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.SHARP_FLINT);
+            event.accept(ModItems.FLINT_MORTAR);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
