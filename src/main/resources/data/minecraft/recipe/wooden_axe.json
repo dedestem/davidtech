@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "W": {
+      "tag": "davidtech:bound_flint"
+    }
+  },
+  "pattern": [
+    " XW",
+    " #X",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:wooden_axe"
+  }
+}
