@@ -2,6 +2,7 @@ package net.davidnet.davidtech.item;
 
 import net.davidnet.davidtech.DavidTech;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -18,7 +19,22 @@ public class ModItems {
 
     // Flint Tools
     public static final DeferredItem<Item> SHARP_FLINT = ITEMS.register("sharp_flint", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> FLINT_MORTAR = ITEMS.register("flint_mortar", () -> new Item(new Item.Properties().stacksTo(1).durability(1)));
+
+    public static final DeferredItem<Item> FLINT_MORTAR = ITEMS.register("flint_mortar",
+            () -> new Item(new Item.Properties().stacksTo(1).durability(32)) { // 32 durability
+                @Override
+                public boolean hasCraftingRemainingItem(ItemStack stack) {
+                    return true;
+                }
+
+                @Override
+                public ItemStack getCraftingRemainingItem(ItemStack stack) {
+                    ItemStack copy = stack.copy();
+                    copy.setDamageValue(copy.getDamageValue() + 1); // Verminder de durability
+                    return copy.getDamageValue() >= copy.getMaxDamage() ? ItemStack.EMPTY : copy;
+                }
+            }
+    );
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
