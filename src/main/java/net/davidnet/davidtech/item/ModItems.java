@@ -18,7 +18,7 @@ public class ModItems {
 
     // Flint Tools
     public static final DeferredItem<Item> SHARP_FLINT = ITEMS.register("sharp_flint", () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> FLINT_MORTAR = ITEMS.register("flint_mortar", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FLINT_MORTAR = ITEMS.register("flint_mortar", () -> new Item(new Item.Properties().stacksTo(1).durability(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
