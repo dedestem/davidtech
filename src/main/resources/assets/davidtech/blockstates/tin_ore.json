@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "modal": "davidnet:block/tin_ore"
+      "model": "davidtech:block/tin_ore"
     }
   }
 }
